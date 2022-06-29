@@ -39,3 +39,28 @@ ReactDOM.render(
   <TradingCard name="Llambda" skill="knitting scarves" imgUrl="/static/img/llambda.jpg" />,
   document.querySelector('#llambda'),
 );
+
+ReactDOM.render(
+  <TradingCard name="Merge" skill="singing Broadway hits" imgUrl="/static/img/merge.png" />,
+  document.querySelector('#merge'),
+);
+
+ReactDOM.render(
+  <TradingCard name="Chef Leo" skill="gourmet vegan chef" imgUrl="/static/img/off-by-one.jpeg" />,
+  document.querySelector('#leo'),
+);
+
+ReactDOM.render(
+  <TradingCard name="Seeds" skill="roller coaster tester" imgUrl="/static/img/seedpy.jpeg" />,
+  document.querySelector('#seeds'),
+);
+
+ReactDOM.render(
+  <TradingCard name="Skittles the Cat" skill="rock climbing" imgUrl="/static/img/polymorphism.jpeg" />,
+  document.querySelector('#skittles'),
+);
+
+ReactDOM.render(
+  <TradingCard name="Short Stack" skill="short order cook" imgUrl="/static/img/shortstack-overflow.jpeg" />,
+  document.querySelector('#short-stack'),
+);
